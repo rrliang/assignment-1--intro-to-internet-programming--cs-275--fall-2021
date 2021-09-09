@@ -9,6 +9,7 @@
   left: 23px;
   top: 40px;
   text-align: center;
+  color: green
 }
 
 #preface {
@@ -18,20 +19,18 @@
 	position: relative;
   left: 35px;
   top: 60px;
+  color: blue
 
 }
 
 ol {
-  counter-reset: li; /* Initiate a counter */
+  //credit to https://gist.github.com/pepebe/1176777 for getting me in the right direction regarding using ordered lists with reset css
+  counter-reset: li;
   list-style: decimal;
   font: 25px 'Azeret Mono';
 
   margin-top: 100px;
- margin-bottom: 100px;
- margin-right: 150px;
- margin-left: 95px;
-}
-
-ol ol {
-  margin: 0 0 0 2em; /* Add some left margin for inner lists */
+  margin-bottom: 100px;
+  margin-right: 75px;
+  margin-left: 110px;
 }

@@ -14,8 +14,8 @@ div
   display: block;
 }
 
-div p
+p
 {
   font-size: 16px;
-  margin: 0;
+  margin: 16px;
 }

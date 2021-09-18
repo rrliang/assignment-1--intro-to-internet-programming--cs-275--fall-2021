@@ -1,0 +1,55 @@
+head {
+
+
+}
+
+nav {
+
+
+}
+
+main {
+
+
+}
+
+div {
+
+}
+
+#outer-div {
+font-size: 50px;
+}
+
+#middle-div {
+  font-size: 40px;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+   font-size: 1em;
+  background-color: #3445342; /* find better colors using online generator */
+  color: black;
+  margin: auto; /* css box model   */
+  padding-bottom: 6px; /* change to vw/vh/em/rems && adjust accordingly */
+
+
+}
+
+
+h1 {
+  font-family: 'Fira Sans Condensed', cursive;
+  font-size: 16px;
+  text-align: center; /* Positioning text on "baseline" (middle line between top cutoff and bottom invisible margin)
+  by adjusting line-height, you're adjusting the top invisible margin that text sits in */
+
+}
+
+h2 {
+
+
+}
+
+footer {
+
+}

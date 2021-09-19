@@ -14,11 +14,18 @@ p
   font-weight: 200;
   font-size: 20px;
 }
+div
+{
+  margin-top: 36px;
+  margin-bottom: 36px;
+  display: block;
+  text-align: center;
+}
 h1
 {
   font-family: 'Cormorant Garamond', serif;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 36px;
+  margin-bottom: 36px;
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
@@ -34,13 +41,13 @@ h2
 li
 {
   list-style-type: square;
-  margin: 12px;
+  margin: 24px;
 }
 footer
 {
   color: #ccc;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 36px;
+  margin-bottom: 36px;
   font-size: 14px;
   text-align: center;
 }

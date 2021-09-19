@@ -5,4 +5,7 @@ ol {
 h1 {
     font-size: 4rem;
 }
+body {
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
+}

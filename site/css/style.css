@@ -5,6 +5,19 @@ ol {
 h1 {
     font-size: 4rem;
 }
+
+a {
+    color: rgb(255, 136, 0);
+}
+
+a:visited {
+    color: rgb(156, 83, 0);
+}
+
+a:hover {
+    color: rgb(255, 246, 217);
+}
+
 body {
     background-color: rgb(17, 17, 17);
     color: rgb(255, 205, 139);

@@ -1,16 +1,78 @@
-head {
-
-
+html {
+  background-color: #323232; /*rgb(255, 221, 145, 0.5);*/
 }
 
-nav {
+header {
+  text-align: center; /* Positioning text on "baseline" (middle line between top cutoff and bottom invisible margin)
+  by adjusting line-height, you're adjusting the top invisible margin that text sits in */
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 3em;
+  padding-top: 1em;
+}
+
+h2 {
+  padding-top: 1em;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
+#nav-home {
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+  line-height: 2.5em;
+  width: 100%;
+}
+
+#nav-home a:hover {
+  color: #91CDFF;
+}
+
+#nav-links {
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+}
+
+@keyframes moveInLeft { /* remove if actually decide to use a top nav bar */
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes FadeIn { /* USE FOR body/main content of elaboration of each principle */
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 main {
-
-
+  padding-top: 30px;
+  text-align: center;
+  font-size: 2em;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 div {
@@ -27,25 +89,11 @@ font-size: 50px;
 
 body {
   font-family: 'Times New Roman', sans-serif;
-   font-size: 1em;
-  background-color: #3445342; /* find better colors using online generator */
-  color: black;
-  margin: auto; /* css box model   */
-  padding-bottom: 6px; /* change to vw/vh/em/rems && adjust accordingly */
-
-
-}
-
-
-h1 {
-  font-family: 'Fira Sans Condensed', cursive;
   font-size: 16px;
-  text-align: center; /* Positioning text on "baseline" (middle line between top cutoff and bottom invisible margin)
-  by adjusting line-height, you're adjusting the top invisible margin that text sits in */
-
-}
-
-h2 {
+  color: white;
+  margin: auto; /* css box model   */
+  /* padding-top: 16px;
+  padding-bottom: 16px; /* change to vw/vh/em/rems && adjust accordingly */
 
 
 }

@@ -5,11 +5,16 @@ body
     color: white;
 }
 
+header
+{
+  background-color: #0F1012;
+}
 h1
 {
    font-family: 'Merriweather', sans-serif;
    font-size: 64px;
    text-align: center;
+
 }
 
 h2
@@ -18,12 +23,12 @@ h2
    font-size: 32px;
    text-align: center;
    margin: 16px;
+
 }
 
 div
 {
   display: block;
-  margin-top: 64px;
   margin-bottom: 64px;
   text-align: center;
 }

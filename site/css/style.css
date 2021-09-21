@@ -9,6 +9,8 @@
 h1 {
   text-align: left;
   font-size: 30px;
+  font-style: normal;
+  font-weight: bolder;
   margin-bottom: 20px;
   margin-top: 20px;
 }

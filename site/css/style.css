@@ -1,10 +1,10 @@
 html {
-  background-color: #323232; /*rgb(255, 221, 145, 0.5);*/
+  background-color: #323232;
+  color: white;
 }
 
 header {
-  text-align: center; /* Positioning text on "baseline" (middle line between top cutoff and bottom invisible margin)
-  by adjusting line-height, you're adjusting the top invisible margin that text sits in */
+  text-align: center;
 }
 
 h1 {
@@ -20,7 +20,8 @@ h2 {
 
 a {
   text-decoration: none;
-  color: inherit;
+  background-color: inherit;
+  color: white;
 }
 
 #nav-home {
@@ -33,6 +34,7 @@ a {
 }
 
 #nav-home a:hover {
+  background-color: inherit;
   color: #91CDFF;
 }
 
@@ -47,39 +49,38 @@ a {
   padding: 0 20px;
 
 
-
  height: 44px;
+ color: inherit;
  background: #323232;
  text-align: center;
 }
 #nav-links ul {
-display: inline;
- max-width: 1200px; /* change to desired width */
- /* removed height from here, apply to a elements */
+ display: inline;
+ max-width: 1200px;
  justify-content: space-around;
- /*align-items: center;*/
  padding: 0;
- margin: 0 auto; /* 0 auto allows it to self-center in the nav */
+ margin: 0 auto;
  list-style-type: none;
 }
+
 #nav-links a {
-display: inline-block;
-height: 44px; /* apply the height here, pushes the li / ul to be the correct height */
-line-height: 44px; /* to get vertical centering */
+height: 44px;
+line-height: 44px;
 color: white;
+background-color: inherit;
 font-size: 15px;
 font-weight: 100;
-text-decoration: none;
 transition: 0.3s;
 display: flex;
 flex-direction: row;
 
 }
 #nav-links a:hover {
+  background-color: inherit;
   color: #91CDFF;
 }
 
-@keyframes moveInLeft { /* remove if actually decide to use a top nav bar */
+@keyframes moveInLeft {
   0% {
     opacity: 0;
     transform: translateX(-100px);
@@ -93,7 +94,7 @@ flex-direction: row;
   }
 }
 
-@keyframes FadeIn { /* USE FOR body/main content of elaboration of each principle */
+@keyframes FadeIn {
   0% {
     opacity: 0;
   }
@@ -112,22 +113,11 @@ main {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-#outer-div {
-font-size: 50px;
-}
-
-#middle-div {
-  font-size: 40px;
-}
-
 body {
   font-size: 16px;
+  background-color: inherit;
   color: white;
-  margin: auto; /* css box model   */
-  /* padding-top: 16px;
-  padding-bottom: 16px; /* change to vw/vh/em/rems && adjust accordingly */
-
-
+  margin: auto;
 }
 
 #content-title {
@@ -148,9 +138,6 @@ body {
 
 p {
 font-family: 'Balsamiq Sans', cursive;
+background-color: inherit;
 color: #A8BCE6;
-}
-
-footer {
-
 }

@@ -36,7 +36,7 @@ img {
 
 p {
 	line-height: 1.2;
-	padding: 1px;
+	padding: 2px;
 	margin: 1px;
 }
 
@@ -50,20 +50,21 @@ p {
 	display: block;
 }
 
-p2 {
-	text-align: justify;
-	font-size: 18px;
-	padding: 1px;
-	margin: 5px;
-	display: block;
-}
-
-.p3 {
+.p2 {
 	padding: 5px;
 	border: 10px solid rgb(225, 252, 246);
 	margin: 10px;
 	background-color: rgb(17, 203, 215);
 	color: rgb(225, 252, 246);
+	display: block;
+}
+
+.p3 {
+	width: 470px;
+	font-size: 14px;
+	line-height: 31px;
+	padding: 1px;
+	margin: 3px;
 	display: block;
 }
 
@@ -160,7 +161,7 @@ li:before {
 
 footer {
 	text-align: center;
-	font-size: 17px;
+	font-size: 18px;
 	padding: 17px;
 	margin: 4px;
 	background-color: rgb(250, 70, 89);

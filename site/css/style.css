@@ -18,6 +18,7 @@ header {
 }
 
 img {
+	float:left;
 	padding: 5px;
 	margin: 10px;
 	border: 10px solid rgb(225, 252, 246);

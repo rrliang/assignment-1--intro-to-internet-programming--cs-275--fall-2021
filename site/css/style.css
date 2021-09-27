@@ -1,0 +1,160 @@
+body {
+	background-color: rgb(54, 79, 107);
+	color: rgb(240, 255, 243);
+	text-align: center;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 2;
+	margin: auto;
+	font-family: 'Itim', cursive;
+	padding: 5px;
+}
+
+header {
+	padding: 0px;
+	background-color: rgb(38, 56, 77);
+	border: 0px;
+	margin: 0px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding: 10px;
+	border: 5px solid rgb(225, 252, 246);
+	height: auto;
+}
+
+.img1 {
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	max-width: 100%;
+}
+
+p {
+	line-height: 1.2;
+	padding: 2px;
+	margin: 1px;
+}
+
+.p1 {
+	text-align: center;
+	width: 470px;
+	font-size: 14px;
+	line-height: 31px;
+	padding: 1px;
+	margin: 3px;
+	display: block;
+}
+
+.p2 {
+	padding: 5px;
+	border: 10px solid rgb(225, 252, 246);
+	margin: 10px;
+	background-color: rgb(17, 203, 215);
+	color: rgb(225, 252, 246);
+	display: block;
+}
+
+a {
+	color: rgb(17, 203, 215);
+}
+
+h1 {
+	background-color: rgb(38, 56, 77);
+	font-size: 3rem;
+	line-height: 1.5;
+	font-family: 'Walter Turncoat', cursive;
+}
+
+h2 {
+	background-color: rgb(54, 79, 107);
+	font-size: 2rem;
+	line-height: 1.5;
+	font-family: 'Walter Turncoat', cursive;
+	padding: 5px;
+	border: 5px solid rgb(225, 252, 246);
+	margin: 10px;
+	background-color: rgb(17, 203, 215);
+	color: rgb(225, 252, 246);
+	display: inline-block;
+	margin-right:10px;
+}
+
+h3 {
+	background-color: rgb(54, 79, 107);
+	font-size: 2rem;
+	line-height: 1.5;
+	font-family: 'Walter Turncoat', cursive;
+	padding: 5px;
+	border: 5px solid rgb(225, 252, 246);
+	margin: 10px;
+	background-color: rgb(13, 152, 161);
+	color: rgb(230, 255, 249);
+	display: inline-block;
+	margin-right:10px;
+}
+
+h4 {
+	font-size: 2.5rem;
+	border: 5px inset rgb(17, 203, 215);
+	margin: 10px;
+	font-family: 'Walter Turncoat', cursive;
+	padding: 5px;
+}
+
+.accordion {
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 1.2rem;
+	background-color: rgb(17, 203, 215);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	cursor: pointer;
+	padding: 15px;
+	width: 100%;
+	border: 5px solid rgb(54, 79, 107);
+	outline: none;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(12, 133, 139);
+}
+
+.accordion:after {
+  content: url('../img/anchor-icon.png');
+  color: rgb(17, 203, 215);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: url('../img/anchor-icon.png');
+  transform: rotate(45deg);
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+li:before {
+	margin: 5px;
+	line-height: 1px;
+	content: url('../img/anchor-icon.png');
+}
+
+footer {
+	text-align: center;
+	font-size: 18px;
+	padding: 17px;
+	margin: 4px;
+	background-color: rgb(250, 70, 89);
+	padding: 20px;
+}

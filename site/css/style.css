@@ -1,0 +1,65 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Condensed:ital@1&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 25px;
+  text-align: center;
+  color: #006400;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #BDD76B;
+  border: 3px solid;
+  font-family: Lato,'sans-serif';
+}
+
+
+h4 {
+  font-size: 16px;
+  text-align: left;
+  font-family: cursive;
+ }
+
+p{
+  font-size: 20px;
+  font-family: Roboto Condensed ,'sans-serif';
+  color: #2F4F4F;
+
+}
+
+body {
+margin: 40px;
+background-color: floralwhite;
+background-image: url(../img/dieter.jpg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-blend-mode: ;
+}
+
+footer {
+
+text-align: center;
+font-family: serif;
+font-style: oblique;
+font-size: 15px;
+padding: 19px;
+margin:5px;
+background-color: #7FFFD4;
+padding: 25px
+}

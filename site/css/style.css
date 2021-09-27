@@ -1,0 +1,30 @@
+body{
+	background-color: #64C4C5;
+	margin: 10px;
+	padding-bottom: 6px;
+	font-weight: 400;
+	line-height: 1.8;
+	width: -100px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Noto Sans','sans-serif';
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+h2,h3,h4,p{
+	font-family: 'Poppins','San-serif';
+	text-align: center;
+}
+
+div{
+	background-color: #F3BB75;
+	width: -50px;
+	border: 10px solid white;
+	padding: 25px;
+	font-weight: 200;
+	line-height: 1.8;
+	margin: 100px;
+}

@@ -1,0 +1,41 @@
+ol {
+    margin-top: 4%;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+a {
+    color: rgb(255, 205, 139);
+}
+
+a:visited {
+    color: rgb(156, 83, 0);
+}
+
+a:hover {
+    color: rgb(255, 205, 139);
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 205, 139);
+    margin: 2% 25% 0 25%;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url('../img/the_img.png');
+}
+
+p {
+    margin-top: 2%;
+}
+
+footer {
+    margin-top: 5%;
+    font-size: 1rem;
+    color: rgb(156, 83, 0);
+}
